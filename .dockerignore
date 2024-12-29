@@ -1,0 +1,32 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore distribution files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore development artifacts
+*.log
+*.sqlite
+*.db
+instance/
+.coverage
+htmlcov/
+
+# Ignore Flask secrets
+*.env
+.env.docker
+
+# Ignore Git files
+.git
+.gitignore
